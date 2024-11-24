@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\HomePage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\HomePage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\LoginPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\LoginPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "application.properties",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\resources\\application.properties",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties",
+              "RelativeToolTip": "backend\\demo\\src\\main\\resources\\application.properties",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-23T20:59:34.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\App.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\App.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:36:40.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeatSelection.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:36:09.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScheduleSelection.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:36:00.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SelectTheatre.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:35:51.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentPage.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:35:41.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieDetails.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:35:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CinemaSeats.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:35:19.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateAccount.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:35:09.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:34:55.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginPage.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-23T20:34:43.832Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
