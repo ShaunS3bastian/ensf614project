@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\target",
+    "\\backend\\target\\maven-archiver",
+    "\\frontend",
+    "\\frontend\\acmeplex-frontend",
+    "\\frontend\\acmeplex-frontend\\src",
+    "\\frontend\\acmeplex-frontend\\src\\api",
+    "\\frontend\\acmeplex-frontend\\src\\components",
+    "\\frontend\\acmeplex-frontend\\src\\components\\Admin",
+    "\\frontend\\acmeplex-frontend\\src\\components\\Reusable"
+  ],
+  "SelectedNode": "\\backend\\demo\\src\\main\\resources\\application.properties",
+  "PreviewInSolutionExplorer": false
+}
