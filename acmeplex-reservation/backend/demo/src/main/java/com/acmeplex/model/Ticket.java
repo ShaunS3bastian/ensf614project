@@ -1,4 +1,6 @@
-Package com.acmeplex.model
+package com.acmeplex.model;
+
+import javax.persistence.*;
 
 @Entity
 public class Ticket {
@@ -23,5 +25,59 @@ public class Ticket {
     private boolean isRefunded = false;
 
     // Getters and Setters
-}
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Showtime getShowtime() {
+        return showtime;
+    }
+
+    public void setShowtime(Showtime showtime) {
+        this.showtime = showtime;
+    }
+
+    public Seat getSeat() {
+        return seat;
+    }
+
+    public void setSeat(Seat seat) {
+        this.seat = seat;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public boolean isCancelled() {
+        return isCancelled;
+    }
+
+    public void setCancelled(boolean cancelled) {
+        isCancelled = cancelled;
+    }
+
+    public boolean isRefunded() {
+        return isRefunded;
+    }
+
+    public void setRefunded(boolean refunded) {
+        isRefunded = refunded;
+    }
+}

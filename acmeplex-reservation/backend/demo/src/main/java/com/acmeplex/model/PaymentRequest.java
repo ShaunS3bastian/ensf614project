@@ -4,7 +4,7 @@ public class PaymentRequest {
     private int amount; // Amount in cents (e.g., $10.00 = 1000)
     private String paymentToken; // Stripe payment token from the frontend
 
-    // Getters and setters
+    // Getters and Setters
     public int getAmount() {
         return amount;
     }

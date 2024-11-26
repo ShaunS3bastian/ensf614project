@@ -2,20 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\backend\\demo",
-    "\\backend\\demo\\src",
-    "\\backend\\demo\\src\\main",
-    "\\backend\\demo\\src\\main\\java",
-    "\\backend\\demo\\src\\main\\java\\com",
-    "\\backend\\demo\\src\\main\\java\\com\\acmeplex",
-    "\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service",
+    "\\backend\\target",
+    "\\backend\\target\\maven-archiver",
     "\\frontend",
     "\\frontend\\acmeplex-frontend",
     "\\frontend\\acmeplex-frontend\\src",
     "\\frontend\\acmeplex-frontend\\src\\api",
     "\\frontend\\acmeplex-frontend\\src\\components",
-    "\\frontend\\acmeplex-frontend\\src\\styles"
+    "\\frontend\\acmeplex-frontend\\src\\components\\Admin",
+    "\\frontend\\acmeplex-frontend\\src\\components\\Reusable"
   ],
-  "SelectedNode": "\\frontend\\acmeplex-frontend\\src\\api\\process-payment",
+  "SelectedNode": "\\backend\\demo\\src\\main\\resources\\application.properties",
   "PreviewInSolutionExplorer": false
 }

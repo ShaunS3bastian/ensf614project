@@ -3,48 +3,208 @@
   "WorkspaceRootPath": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\App.test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ReportDashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\ReportDashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ReportService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\ReportService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\ReportController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\ReportController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\AdminUserController.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\AdminUserController.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\ReportService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\ReportService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\EmailService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\EmailService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\UserRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\UserRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\TicketRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\TicketRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\User.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\User.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\config\\SecurityConfig.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\config\\SecurityConfig.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\resources\\application.properties||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminReports.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\AdminReports.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminMovieManagament.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\AdminMovieManagament.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminDashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\AdminDashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketReportController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketReportController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\MovieController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\MovieController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\Cancellation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\Cancellation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\Notifications.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\Notifications.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\notification||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\api\\notification||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\NotificationService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\NotificationService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\pom.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\NotificationRequest.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\NotificationRequest.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\NotificationController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\NotificationController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\NotificationRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\NotificationRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Notification.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Notification.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\cancel-ticket||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\api\\cancel-ticket||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketCancellationRequest.Java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketCancellationRequest.Java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\TicketService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\TicketService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketBookingRequest.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketBookingRequest.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\PaymentRequest.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\PaymentRequest.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\process-payment||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\api\\process-payment||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\PaymentController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\PaymentController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\PaymentService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\PaymentService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\MovieService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\MovieService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Ticket.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Ticket.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\UserService.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\UserService.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\styles\\SeatSelection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\styles\\SeatSelection.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\SeatController.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\SeatController.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\HomePage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\HomePage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\SeatRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\SeatRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\LoginPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\acmeplex-frontend\\src\\components\\LoginPage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Seat.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Seat.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\ShowtimeRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\ShowtimeRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\MovieRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\MovieRepository.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Showtime.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Showtime.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Movie.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Movie.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\UserController.java||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\UserController.java||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\AcmePlexApplication.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\demo\\src\\main\\java\\com\\acmeplex\\AcmePlexApplication.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,144 +219,664 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "application.properties",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties",
-              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\resources\\application.properties",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties",
-              "RelativeToolTip": "backend\\demo\\src\\main\\resources\\application.properties",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-23T20:59:34.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "App.js",
               "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js",
               "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\App.js",
               "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.js",
               "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\App.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T02:48:47.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.test.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.test.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\App.test.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\App.test.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\App.test.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:36:40.455Z",
+              "WhenOpened": "2024-11-25T02:48:46.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SeatSelection.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ReportDashboard.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ReportDashboard.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\ReportDashboard.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ReportDashboard.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\ReportDashboard.js",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:36:09.891Z",
+              "WhenOpened": "2024-11-25T02:48:27.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ScheduleSelection.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\ScheduleSelection.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ReportService.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ReportService.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\ReportService.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\ReportService.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\ReportService.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:36:00.036Z",
+              "WhenOpened": "2024-11-25T02:47:50.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SelectTheatre.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\SelectTheatre.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:35:51.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentPage.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\PaymentPage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:35:41.391Z",
+              "Title": "ReportController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\ReportController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\ReportController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\ReportController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\ReportController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:47:07.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MovieDetails.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\MovieDetails.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:35:32.05Z",
+              "Title": "ReportService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\ReportService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\ReportService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\ReportService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\ReportService.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:46:27.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CinemaSeats.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:35:19.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateAccount.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\CreateAccount.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:35:09.431Z",
+              "DocumentIndex": 11,
+              "Title": "SecurityConfig.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\config\\SecurityConfig.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\config\\SecurityConfig.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\config\\SecurityConfig.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\config\\SecurityConfig.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:40:24.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HomePage.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\HomePage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:34:55.027Z",
+              "Title": "TicketRepository.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\TicketRepository.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\TicketRepository.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\TicketRepository.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\TicketRepository.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:44:51.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "LoginPage.js",
-              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
-              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
-              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
-              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\LoginPage.js",
+              "Title": "User.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\User.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\User.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\User.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\User.java",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:42:52.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\EmailService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\EmailService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\EmailService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\EmailService.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:14:09.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminUserController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\AdminUserController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\AdminUserController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\AdminUserController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\AdminUserController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:29:26.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "application.properties",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\resources\\application.properties",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\resources\\application.properties",
+              "RelativeToolTip": "backend\\demo\\src\\main\\resources\\application.properties",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:12:58.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminReports.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminReports.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\AdminReports.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminReports.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\AdminReports.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswB8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-23T20:34:43.832Z",
+              "WhenOpened": "2024-11-25T02:32:11.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminMovieManagament.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminMovieManagament.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\AdminMovieManagament.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminMovieManagament.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\AdminMovieManagament.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T02:31:53.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\UserRepository.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\UserRepository.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\UserRepository.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\UserRepository.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:44:09.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminDashboard.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminDashboard.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\AdminDashboard.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\AdminDashboard.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\AdminDashboard.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T02:31:19.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TicketReportController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketReportController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketReportController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketReportController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketReportController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:30:18.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cancellation.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\Cancellation.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\Cancellation.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\Cancellation.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\Cancellation.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T02:17:40.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MovieController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\MovieController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\MovieController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\MovieController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\MovieController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:42:28.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Notifications.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\Notifications.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\Notifications.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\Notifications.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\Notifications.js",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-25T02:16:30.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "notification",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\notification",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\api\\notification",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\notification",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\api\\notification",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:16:00.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SeatSelection.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\SeatSelection.js",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-24T06:55:14.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\NotificationService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\NotificationService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\NotificationService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\NotificationService.java",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:10:40.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationRequest.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\NotificationRequest.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\NotificationRequest.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\NotificationRequest.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\NotificationRequest.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:11:50.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NotificationController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\NotificationController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\NotificationController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\NotificationController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\NotificationController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:11:13.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "pom.xml",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\pom.xml",
+              "RelativeDocumentMoniker": "backend\\demo\\pom.xml",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\pom.xml",
+              "RelativeToolTip": "backend\\demo\\pom.xml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-24T05:52:59.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NotificationRepository.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\NotificationRepository.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\NotificationRepository.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\NotificationRepository.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\NotificationRepository.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:09:59.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Notification.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Notification.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Notification.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Notification.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Notification.java",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:09:18.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "cancel-ticket",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\cancel-ticket",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\api\\cancel-ticket",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\cancel-ticket",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\api\\cancel-ticket",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:08:16.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TicketCancellationRequest.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketCancellationRequest.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketCancellationRequest.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketCancellationRequest.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketCancellationRequest.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T02:06:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TicketBookingRequest.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketBookingRequest.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketBookingRequest.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketBookingRequest.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\dto\\TicketBookingRequest.java",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T01:58:52.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TicketService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\TicketService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\TicketService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\TicketService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\TicketService.java",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:45:43.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TicketController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\TicketController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:42:40.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PaymentRequest.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\PaymentRequest.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\PaymentRequest.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\PaymentRequest.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\PaymentRequest.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T07:03:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "process-payment",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\process-payment",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\api\\process-payment",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\api\\process-payment",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\api\\process-payment",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T07:03:57.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PaymentController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\PaymentController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\PaymentController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\PaymentController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\PaymentController.java",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T07:02:43.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PaymentService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\PaymentService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\PaymentService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\PaymentService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\PaymentService.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:45:54.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MovieService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\MovieService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\MovieService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\MovieService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\MovieService.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:45:29.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserService.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\UserService.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\UserService.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\UserService.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\service\\UserService.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:45:17.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Ticket.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Ticket.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Ticket.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Ticket.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Ticket.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:43:32.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SeatSelection.css",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\styles\\SeatSelection.css",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\styles\\SeatSelection.css",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\styles\\SeatSelection.css",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\styles\\SeatSelection.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T06:55:53.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CinemaSeats.js",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "RelativeDocumentMoniker": "frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "RelativeToolTip": "frontend\\acmeplex-frontend\\src\\components\\CinemaSeats.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-24T06:54:45.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SeatController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\SeatController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\SeatController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\SeatController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\SeatController.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:53:59.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ShowtimeRepository.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\ShowtimeRepository.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\ShowtimeRepository.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\ShowtimeRepository.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\ShowtimeRepository.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:44:42.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MovieRepository.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\MovieRepository.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\MovieRepository.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\MovieRepository.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\MovieRepository.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:44:33.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Seat.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Seat.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Seat.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Seat.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Seat.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:43:22.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SeatRepository.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\SeatRepository.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\SeatRepository.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\SeatRepository.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\repository\\SeatRepository.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:45:01.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Showtime.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Showtime.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Showtime.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Showtime.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Showtime.java",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:43:13.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Movie.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Movie.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Movie.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Movie.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\model\\Movie.java",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:43:01.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserController.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\UserController.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\UserController.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\UserController.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\controller\\UserController.java",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:42:03.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AcmePlexApplication.java",
+              "DocumentMoniker": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\AcmePlexApplication.java",
+              "RelativeDocumentMoniker": "backend\\demo\\src\\main\\java\\com\\acmeplex\\AcmePlexApplication.java",
+              "ToolTip": "C:\\Users\\91989\\Desktop\\acmeplex-reservation\\backend\\demo\\src\\main\\java\\com\\acmeplex\\AcmePlexApplication.java",
+              "RelativeToolTip": "backend\\demo\\src\\main\\java\\com\\acmeplex\\AcmePlexApplication.java",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-24T06:27:41.522Z",
               "EditorCaption": ""
             }
           ]

@@ -736,3 +736,255 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.mysql:mys
 	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
 	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-24 19:52:48,870 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-24 20:00:56,495 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-24 21:41:08,783 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-11-24 21:41:09,026 [main] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:902)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:898)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.readEnforcedJavaVersion(MavenLaunchDelegate.java:249)
+	at org.eclipse.m2e.ui.internal.launch.MavenJRETab.getDefaultJREDescriptor(MavenJRETab.java:73)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaJRETab.initializeFrom(JavaJRETab.java:197)
+	at org.eclipse.m2e.ui.internal.launch.MavenJRETab.initializeFrom(MavenJRETab.java:158)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:182)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:868)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:728)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:743)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:675)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:655)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.initializeContent(LaunchConfigurationPropertiesDialog.java:101)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:473)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:378)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.open(LaunchConfigurationPropertiesDialog.java:186)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialog(DebugUITools.java:711)
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:154)
+	at org.eclipse.m2e.actions.ExecutePomAction.launch(ExecutePomAction.java:124)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:430)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2024-11-24 21:41:12,991 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [273])
+2024-11-24 21:41:12,996 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2024-11-24 21:41:12,996 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2024-11-24 21:41:12,997 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2024-11-24 21:41:12,997 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2024-11-24 21:41:12,997 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2024-11-24 21:41:12,997 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2024-11-24 21:41:12,998 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2024-11-24 21:41:12,998 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2024-11-24 21:41:12,998 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2024-11-24 21:41:12,998 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2024-11-24 21:41:12,998 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2024-11-24 21:41:12,998 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2024-11-24 21:41:12,999 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2024-11-24 21:41:12,999 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2024-11-24 21:41:12,999 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2024-11-24 21:41:12,999 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2024-11-24 21:41:12,999 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2024-11-24 21:41:12,999 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2024-11-24 21:41:13,000 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2024-11-24 21:41:13,000 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2024-11-24 21:41:13,000 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2024-11-24 21:41:13,000 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2024-11-24 21:41:13,000 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2024-11-24 21:41:13,000 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2024-11-24 21:41:13,001 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2024-11-24 21:41:13,001 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2024-11-24 21:41:13,001 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-11-24 21:41:13,001 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-11-24 21:41:13,001 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2024-11-24 21:41:13,002 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2024-11-24 21:41:13,002 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2024-11-24 21:41:13,002 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2024-11-24 21:41:13,002 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2024-11-24 21:41:13,002 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-24 21:41:13,002 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2024-11-24 21:41:13,003 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2024-11-24 21:41:13,003 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2024-11-24 21:41:13,004 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [9])
+2024-11-24 21:41:13,005 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2024-11-24 21:41:13,005 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [441])
+2024-11-24 21:41:13,006 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2024-11-24 21:41:13,006 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [21])
+2024-11-24 21:41:13,009 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2024-11-24 21:41:13,009 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [19])
+2024-11-24 21:41:13,009 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2024-11-24 21:41:13,009 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [41])
+2024-11-24 21:41:13,012 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2024-11-24 21:41:13,012 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [11])
+2024-11-24 21:41:13,014 [Worker-25: Launching backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\91989\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2024-11-24 21:41:13,019 [Worker-25: Launching backend] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\91989\Desktop\acmeplex-reservation\backend":
+2024-11-24 21:41:13,022 [Worker-25: Launching backend] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always 
+2024-11-24 21:41:13,044 [Worker-25: Launching backend] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:902)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:898)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.readEnforcedJavaVersion(MavenLaunchDelegate.java:249)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.getVMInstall(MavenLaunchDelegate.java:224)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.getBootpathExt(AbstractJavaLaunchConfigurationDelegate.java:363)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.getVMSpecificAttributesMap(AbstractJavaLaunchConfigurationDelegate.java:679)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.getVMRunnerConfiguration(JavaLaunchDelegate.java:92)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:160)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.launch(MavenLaunchDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-24 21:41:13,050 [Worker-25: Launching backend] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:902)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:898)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.readEnforcedJavaVersion(MavenLaunchDelegate.java:249)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.getVMInstall(MavenLaunchDelegate.java:224)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.verifyVMInstall(AbstractJavaLaunchConfigurationDelegate.java:203)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.getVMRunner(AbstractJavaLaunchConfigurationDelegate.java:1053)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.getVMRunner(MavenLaunchDelegate.java:154)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:175)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.launch(MavenLaunchDelegate.java:133)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-24 21:45:30,110 [main] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml: C:\Users\91989\Desktop\acmeplex-reservation\backend\pom.xml (The system cannot find the file specified) @ 
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:131)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:902)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:898)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:214)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.internal.launch.MavenLaunchDelegate.readEnforcedJavaVersion(MavenLaunchDelegate.java:249)
+	at org.eclipse.m2e.ui.internal.launch.MavenJRETab.getDefaultJREDescriptor(MavenJRETab.java:73)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaJRETab.initializeFrom(JavaJRETab.java:197)
+	at org.eclipse.m2e.ui.internal.launch.MavenJRETab.initializeFrom(MavenJRETab.java:158)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:182)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:868)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:728)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:743)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:675)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:655)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:1049)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.lambda$1(LaunchConfigurationsDialog.java:612)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:821)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:818)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1661)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1090)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.doInitialTreeSelection(LaunchConfigurationsDialog.java:658)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.initializeContent(LaunchConfigurationsDialog.java:1185)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:473)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:378)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:85)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
