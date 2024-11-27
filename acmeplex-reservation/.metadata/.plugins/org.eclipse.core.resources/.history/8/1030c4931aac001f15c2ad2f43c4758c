@@ -1,0 +1,106 @@
+package com.acmeplex.model;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+
+@Entity
+@Table(name = "tickets") // Optional: Use if the table name needs to be explicitly defined
+public class Ticket {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    @NotNull
+    private User user;
+
+    @ManyToOne
+    @JoinColumn(name = "showtime_id", nullable = false)
+    @NotNull
+    private Showtime showtime;
+
+    @ManyToOne
+    @JoinColumn(name = "seat_id", nullable = false)
+    @NotNull
+    private Seat seat;
+
+    @Column(nullable = false)
+    private double price;
+
+    @Column(nullable = false)
+    private boolean isCancelled = false;
+
+    @Column(nullable = false)
+    private boolean isRefunded = false;
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Showtime getShowtime() {
+        return showtime;
+    }
+
+    public void setShowtime(Showtime showtime) {
+        this.showtime = showtime;
+    }
+
+    public Seat getSeat() {
+        return seat;
+    }
+
+    public void setSeat(Seat seat) {
+        this.seat = seat;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public boolean isCancelled() {
+        return isCancelled;
+    }
+
+    public void setCancelled(boolean cancelled) {
+        isCancelled = cancelled;
+    }
+
+    public boolean isRefunded() {
+        return isRefunded;
+    }
+
+    public void setRefunded(boolean refunded) {
+        isRefunded = refunded;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Ticket)) return false;
+        Ticket ticket = (Ticket) o;
+        return id != null && id.equals(ticket.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
+}

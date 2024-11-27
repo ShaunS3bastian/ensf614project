@@ -1,0 +1,5 @@
+package com.acmeplex.exception;
+
+public class EmailAlreadyExistsException {
+
+}

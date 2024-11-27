@@ -1,0 +1,142 @@
+package com.acmeplex.model;
+
+import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Entity
+@Table(name = "users") // Explicit table name
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Role role; // Enum for role values
+
+    @NotNull
+    @Column(nullable = false)
+    private String name;
+
+    @NotNull
+    @Email
+    @Column(nullable = false, unique = true) // Enforce unique email addresses
+    private String email;
+
+    @NotNull
+    @Column(nullable = false)
+    private String password; // Store hashed password
+
+    @Column(nullable = false)
+    private boolean isRegisteredUser = false;
+
+    private String address; // Optional for ordinary users
+    private String creditCardInfo; // Optional for ordinary users
+    private LocalDateTime accountExpiry; // For Registered Users
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Ticket> tickets; // A user can have multiple tickets
+
+    // Enum for Role
+    public enum Role {
+        ROLE_USER,
+        ROLE_ADMIN
+    }
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public boolean isRegisteredUser() {
+        return isRegisteredUser;
+    }
+
+    public void setRegisteredUser(boolean registeredUser) {
+        isRegisteredUser = registeredUser;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getCreditCardInfo() {
+        return creditCardInfo;
+    }
+
+    public void setCreditCardInfo(String creditCardInfo) {
+        this.creditCardInfo = creditCardInfo;
+    }
+
+    public LocalDateTime getAccountExpiry() {
+        return accountExpiry;
+    }
+
+    public void setAccountExpiry(LocalDateTime accountExpiry) {
+        this.accountExpiry = accountExpiry;
+    }
+
+    public List<Ticket> getTickets() {
+        return tickets;
+    }
+
+    public void setTickets(List<Ticket> tickets) {
+        this.tickets = tickets;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+        User user = (User) o;
+        return id != null && id.equals(user.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
+    }
+}
