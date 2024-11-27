@@ -1,0 +1,47 @@
+.seat - grid {
+    display: grid;
+    grid - template - columns: repeat(10, 40px);
+    gap: 10px;
+    justify - content: center;
+}
+
+.seat {
+    display: flex;
+    justify - content: center;
+    align - items: center;
+    width: 40px;
+    height: 40px;
+    border - radius: 5px;
+    background - color: #1f1f1f;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+    .seat.reserved {
+        background - color: #d3d3d3;
+        cursor: not - allowed;
+    }
+
+    .seat.selected {
+        background - color: #ff7300;
+    }
+
+    .seat.available:hover {
+        background - color: #3f3f3f;
+    }
+
+.book - button {
+    margin - top: 20px;
+    padding: 10px 20px;
+    background - color: #ff7300;
+    color: white;
+    border: none;
+    border - radius: 20px;
+    font - size: 16px;
+    cursor: pointer;
+}
+
+    .book - button:hover {
+        background - color: #e06700;
+    }
