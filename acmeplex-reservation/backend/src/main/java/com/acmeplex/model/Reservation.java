@@ -3,10 +3,6 @@ package com.acmeplex.model;
 import jakarta.persistence.*;
 import java.util.List;
 
-import com.acmeplex.model.Ticket;
-import com.acmeplex.model.User;
-import com.acmeplex.model.Ticket;
-
 @Entity
 public class Reservation {
 
@@ -76,7 +72,7 @@ public class Reservation {
         return numberOfTickets;
     }
 
-    public String getSeatNumbers() {
+    public String[] getSeatNumbers() {
         return seatNumbers;
     }
 
@@ -130,7 +126,7 @@ public class Reservation {
         this.numberOfTickets = numberOfTickets;
     }
 
-    public void setSeatNumbers(String seatNumbers) {
+    public void setSeatNumbers(String[] seatNumbers) {
         this.seatNumbers = seatNumbers;
     }
 

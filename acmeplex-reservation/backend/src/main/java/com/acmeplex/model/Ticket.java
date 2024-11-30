@@ -1,10 +1,5 @@
 package com.acmeplex.model;
-
 import jakarta.persistence.*;
-import main.java.com.acmeplex.model.Credit;
-import main.java.com.acmeplex.model.Reservation;
-
-import java.util.List;
 
 @Entity
 public class Ticket {
@@ -21,8 +16,7 @@ public class Ticket {
     private double price;
 
     // GENERATES: One ticket generates 0..1 credit
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(mappedBy = "ticket")        
+    @OneToOne(mappedBy = "ticket")        
     private Credit credit;
 
     // MANAGES: Many tickets can be managed by 1 reservation

@@ -1,6 +1,4 @@
 package com.acmeplex.model;
-import com.acmeplex.model.*;
-
 import jakarta.persistence.*;
 
 import java.util.List;

@@ -1,3 +1,4 @@
+package com.acmeplex.model;
 import jakarta.persistence.*;
 
 @Embeddable

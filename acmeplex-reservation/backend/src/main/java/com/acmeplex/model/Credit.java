@@ -1,5 +1,4 @@
 package com.acmeplex.model;
-
 import jakarta.persistence.*;
 import java.time.LocalDate;
 

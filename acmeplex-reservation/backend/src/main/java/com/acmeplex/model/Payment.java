@@ -1,3 +1,4 @@
+package com.acmeplex.model;
 import jakarta.persistence.*;
 
 @Entity
@@ -27,7 +28,7 @@ public class Payment {
 
     // Getters
 
-    public String getPaymentID() {
+    public int getPaymentID() {
         return paymentID;
     }
 
@@ -45,7 +46,7 @@ public class Payment {
 
     // Setters
 
-    public void setPaymentID(String paymentID) {
+    public void setPaymentID(int paymentID) {
         this.paymentID = paymentID;
     }
 

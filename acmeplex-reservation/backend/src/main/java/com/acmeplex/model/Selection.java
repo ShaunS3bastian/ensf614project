@@ -1,7 +1,7 @@
+package com.acmeplex.model;
 import jakarta.persistence.*;
-import java.util.List;
 
-import com.acmeplex.model.User;
+import java.util.List;
 
 @Entity
 public class Selection {
