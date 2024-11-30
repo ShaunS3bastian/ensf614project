@@ -1,95 +1,102 @@
 package com.acmeplex.model;
 
-import javax.persistence.*;
-
-import main.java.com.acmeplex.model.Reservation;
-import main.java.com.acmeplex.model.Selection;
-
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
-// Possible values: "ROLE_USER", "ROLE_ADMIN"
-    private String name;
-    private String email;
-    private String password; // Encrypted
-    private boolean isRegisteredUser;
+@Entity
+public class User {
 
-    private String address; // Optional for ordinary users
-    private String creditCardInfo; // Optional for ordinary users
-    private LocalDateTime accountExpiry; // For Registered Users
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int userID;
 
-    // Getters and setters
-    public Long getId() {
-        return id;
+    private boolean isRegistered;
+
+    // RECEIVES: 1 user can receive multiple tickets
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Ticket> tickets;
+
+    // MAKES: 1 user can make many reservations
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Reservation> reservations;
+
+    // RECEIVES: 1 user can receive multiple credits
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Credit> credits;
+
+    // PAY relationship (via PaymentDetail)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<PaymentDetail> paymentDetails;
+
+    // SELECT relationship (via Selection)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Selection> selections;
+
+    // Constructors
+    public User() {}
+
+    public User(boolean isRegistered) {
+        this.isRegistered = isRegistered;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-import main.java.com.acmeplex.model.Reservation;
-
+    // Getters
+    public int getUserID() {
+        return userID;
     }
 
-    public String getRole() {
-        return role;
+    public boolean isRegistered() {
+        return isRegistered;
     }
 
-    public void setRole(String role) {
-        this.role = role;
+    public List<Ticket> getTickets() {
+        return tickets;
     }
 
-    public String getName() {
-        return name;
+    public List<Reservation> getReservations() {
+        return reservations;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public List<Credit> getCredits() {
+        return credits;
     }
 
-    public String getEmail() {
-        return email;
+    public List<PaymentDetail> getPaymentDetails() {
+        return paymentDetails;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public List<Selection> getSelections() {
+        return selections;
     }
 
-    public String getPassword() {
-        return password;
+    // Setters
+    
+    public void setUserID(int userID) {
+        this.userID = userID;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setRegistered(boolean isRegistered) {
+        this.isRegistered = isRegistered;
     }
 
-    public boolean isRegisteredUser() {
-        return isRegisteredUser;
+    public void setTickets(List<Ticket> tickets) {
+        this.tickets = tickets;
     }
 
-    public void setRegisteredUser(boolean registeredUser) {
-        isRegisteredUser = registeredUser;
+    public void setReservations(List<Reservation> reservations) {
+        this.reservations = reservations;
     }
 
-    public String getAddress() {
-        return address;
+    public void setCredits(List<Credit> credits) {
+        this.credits = credits;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setPaymentDetails(List<PaymentDetail> paymentDetails) {
+        this.paymentDetails = paymentDetails;
     }
 
-    public String getCreditCardInfo() {
-        return creditCardInfo;
-    }
-
-    public void setCreditCardInfo(String creditCardInfo) {
-        this.creditCardInfo = creditCardInfo;
-    }
-
-    public LocalDateTime getAccountExpiry() {
-        return accountExpiry;
-    }
-
-    public void setAccountExpiry(LocalDateTime accountExpiry) {
-        this.accountExpiry = accountExpiry;
+    public void setSelections(List<Selection> selections) {
+        this.selections = selections;
     }
 }
+

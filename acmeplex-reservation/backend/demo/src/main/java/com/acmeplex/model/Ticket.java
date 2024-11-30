@@ -1,83 +1,134 @@
 package com.acmeplex.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+import main.java.com.acmeplex.model.Credit;
+import main.java.com.acmeplex.model.Reservation;
+
+import java.util.List;
 
 @Entity
 public class Ticket {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int ticketID;
 
+    private String seatNumber;
+    private String showtimeDate;
+    private String theatreName;
+    private String movieTitle;
+    private String email;
+    private double price;
+
+    // GENERATES: One ticket generates 0..1 credit
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(mappedBy = "ticket")        
+    private Credit credit;
+
+    // MANAGES: Many tickets can be managed by 1 reservation
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "reservationID", nullable = false)
+    private Reservation reservation;
+
+    // RECEIVES: Many tickets can be received by 1 User
+    @ManyToOne
+    @JoinColumn(name = "userID", nullable = false)
     private User user;
 
-    @ManyToOne
-    @JoinColumn(name = "showtime_id")
-    private Showtime showtime;
+    // Constructors
 
-    @ManyToOne
-    @JoinColumn(name = "seat_id")
-    private Seat seat;
+    public Ticket() {}
 
-    private double price;
-    private boolean isCancelled = false;
-    private boolean isRefunded = false;
-
-    // Getters and Setters
-    public Long getId() {
-        return id;
+    public Ticket(String seatNumber, String showtimeDate, String theatreName, String movieTitle, String email, double price) {
+        this.seatNumber = seatNumber;
+        this.showtimeDate = showtimeDate;
+        this.theatreName = theatreName;
+        this.movieTitle = movieTitle;
+        this.email = email;
+        this.price = price;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    // Getters
+    public int getTicketID() {
+        return ticketID;
     }
 
-    public User getUser() {
-        return user;
+    public String getSeatNumber() {
+        return seatNumber;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public String getShowtimeDate() {
+        return showtimeDate;
     }
 
-    public Showtime getShowtime() {
-        return showtime;
+    public String getTheatreName() {
+        return theatreName;
     }
 
-    public void setShowtime(Showtime showtime) {
-        this.showtime = showtime;
+    public String getMovieTitle() {
+        return movieTitle;
     }
 
-    public Seat getSeat() {
-        return seat;
-    }
-
-    public void setSeat(Seat seat) {
-        this.seat = seat;
+    public String getEmail() {
+        return email;
     }
 
     public double getPrice() {
         return price;
     }
 
+    public Credit getCredit() {
+        return credit;
+    }
+
+    public Reservation getReservation() {
+        return reservation;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    // Setters
+    public void setTicketID(int ticketID) {
+        this.ticketID = ticketID;
+    }
+
+    public void setSeatNumber(String seatNumber) {
+        this.seatNumber = seatNumber;
+    }
+
+    public void setShowtimeDate(String showtimeDate) {
+        this.showtimeDate = showtimeDate;
+    }
+
+    public void setTheatreName(String theatreName) {
+        this.theatreName = theatreName;
+    }
+
+    public void setMovieTitle(String movieTitle) {
+        this.movieTitle = movieTitle;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public void setPrice(double price) {
         this.price = price;
     }
 
-    public boolean isCancelled() {
-        return isCancelled;
+    public void setCredit(Credit credit) {
+        this.credit = credit;
     }
 
-    public void setCancelled(boolean cancelled) {
-        isCancelled = cancelled;
+    public void setReservation(Reservation reservation) {
+        this.reservation = reservation;
     }
 
-    public boolean isRefunded() {
-        return isRefunded;
+    public void setUser(User user) {
+        this.user = user;
     }
 
-    public void setRefunded(boolean refunded) {
-        isRefunded = refunded;
-    }
 }
+
