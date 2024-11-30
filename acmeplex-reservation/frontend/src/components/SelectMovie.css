@@ -1,0 +1,92 @@
+.select-movie-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .movie-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .movie-genres {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .genre {
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+  
+  .movie-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-duration {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .movie-synopsis {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .book-tickets-button {
+    background-color: #f17a1e;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-tickets-button:hover {
+    background-color: #d46918;
+  }
+  
+  .movie-poster {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .poster-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .no-poster {
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+  }
+  
+  
