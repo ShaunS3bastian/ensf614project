@@ -1,7 +1,6 @@
 package com.acmeplex.service;
 
 import com.acmeplex.model.Notification;
-import com.acmeplex.model.User;
 import com.acmeplex.repository.NotificationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

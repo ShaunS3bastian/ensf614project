@@ -1,79 +1,100 @@
 package com.acmeplex.model;
-
 import jakarta.persistence.*;
-import java.time.LocalDateTime;
+
+import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Showtime {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int showtimeID;
 
-    private LocalDateTime time;
-    private String cinema;
+    private String dateTime;        // ex. Dec 3rd, 6:00 PM
 
+    // PLAY: many showtimes play 1 movie
     @ManyToOne
-    @JoinColumn(name = "movie_id")
+    @JoinColumn(name = "movieID", nullable = false)
     private Movie movie;
 
-    private int totalSeats;
-    private int reservedSeats;
+    // SCHEDULES: many showtimes are scheduled for 1 theatre
+    @ManyToOne
+    @JoinColumn(name = "theatreID", nullable = false)
+    private Theatre theatre;
 
-    // Default constructor
+    // HAS: many showtimes have many seats
+    @ManyToMany
+    @JoinTable(
+        name = "showtime_seat",
+        joinColumns = @JoinColumn(name = "showtimeID"),
+        inverseJoinColumns = @JoinColumn(name = "seatID")
+    )
+    private Set<Seat> seats;
+
+    // SELECTS relationship (via Selection)
+    @OneToMany(mappedBy = "showtime", cascade = CascadeType.ALL)
+    private List<Selection> selections;
+
+    // Constructors
+
     public Showtime() {}
 
-    // Constructor with ID only
-    public Showtime(Long id) {
-        this.id = id;
+    public Showtime(String dateTime, Movie movie, Theatre theatre, Set<Seat> seats) {
+        this.dateTime = dateTime;
+        this.movie = movie;
+        this.theatre = theatre;
+        this.seats = seats;
     }
 
-    // Getters and Setters
-    public Long getId() {
-        return id;
+    // Getters 
+    public int getShowtimeID() {
+        return showtimeID;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public LocalDateTime getTime() {
-        return time;
-    }
-
-    public void setTime(LocalDateTime time) {
-        this.time = time;
-    }
-
-    public String getCinema() {
-        return cinema;
-    }
-
-    public void setCinema(String cinema) {
-        this.cinema = cinema;
+    public String getDateTime() {
+        return dateTime;
     }
 
     public Movie getMovie() {
         return movie;
     }
 
+    public Theatre getTheatre() {
+        return theatre;
+    }
+    
+    public Set<Seat> getSeats() {
+        return seats;
+    }
+    
+    public List<Selection> getSelections() {
+        return selections;
+    }
+
+    // Setters
+
+    public void setShowtimeID(int showtimeID) {
+        this.showtimeID = showtimeID;
+    }
+
+    public void setDateTime(String dateTime) {
+        this.dateTime = dateTime;
+    }
+
     public void setMovie(Movie movie) {
         this.movie = movie;
     }
-
-    public int getTotalSeats() {
-        return totalSeats;
+    
+    public void setTheatre(Theatre theatre) {
+        this.theatre = theatre;
     }
 
-    public void setTotalSeats(int totalSeats) {
-        this.totalSeats = totalSeats;
+    public void setSeats(Set<Seat> seats) {
+        this.seats = seats;
     }
 
-    public int getReservedSeats() {
-        return reservedSeats;
-    }
-
-    public void setReservedSeats(int reservedSeats) {
-        this.reservedSeats = reservedSeats;
+    public void setSelections(List<Selection> selections) {
+        this.selections = selections;
     }
 }

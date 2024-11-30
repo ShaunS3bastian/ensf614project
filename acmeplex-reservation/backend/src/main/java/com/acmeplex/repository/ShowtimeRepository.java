@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface ShowtimeRepository extends JpaRepository<Showtime, Long> {
-    List<Showtime> findByMovieId(Long movieId); // Custom query method
+    List<Showtime> findByMovieId(Long movieId);
 }
