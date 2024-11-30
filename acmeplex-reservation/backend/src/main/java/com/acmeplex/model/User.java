@@ -29,45 +29,70 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<PaymentDetail> paymentDetails;
 
-    // SELECT relationship (via )
+    // SELECT relationship (via Selection)
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Selection> selections;
 
-    // Getters and setters
-    public int getUserID() {
-        return userID;
+    // Constructors
+    public User() {}
+
+    public User(boolean isRegistered) {
+        this.isRegistered = isRegistered;
     }
 
-    public void setUserID(int userID) {
-        this.userID = userID;
+    // Getters
+    public int getUserID() {
+        return userID;
     }
 
     public boolean isRegistered() {
         return isRegistered;
     }
 
-    public void setRegistered(boolean registered) {
-        isRegistered = registered;
+    public List<Ticket> getTickets() {
+        return tickets;
+    }
+
+    public List<Reservation> getReservations() {
+        return reservations;
     }
 
     public List<Credit> getCredits() {
         return credits;
     }
 
-    public void setCredits(List<Credit> credits) {
-        this.credits = credits;
+    public List<PaymentDetail> getPaymentDetails() {
+        return paymentDetails;
     }
 
-    public List<Ticket> getTickets() {
-        return tickets;
+    public List<Selection> getSelections() {
+        return selections;
+    }
+
+    // Setters
+    
+    public void setUserID(int userID) {
+        this.userID = userID;
+    }
+
+    public void setRegistered(boolean isRegistered) {
+        this.isRegistered = isRegistered;
     }
 
     public void setTickets(List<Ticket> tickets) {
         this.tickets = tickets;
     }
 
-    public List<Selection> getSelections() {
-        return selections;
+    public void setReservations(List<Reservation> reservations) {
+        this.reservations = reservations;
+    }
+
+    public void setCredits(List<Credit> credits) {
+        this.credits = credits;
+    }
+
+    public void setPaymentDetails(List<PaymentDetail> paymentDetails) {
+        this.paymentDetails = paymentDetails;
     }
 
     public void setSelections(List<Selection> selections) {

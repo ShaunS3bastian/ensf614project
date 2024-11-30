@@ -2,6 +2,7 @@ package com.acmeplex.model;
 import com.acmeplex.model.*;
 
 import jakarta.persistence.*;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -17,6 +18,10 @@ public class Theatre {
     @Embedded
     private Address location;
 
+    // SELECTS relationship (via Selection)
+    @OneToMany(mappedBy = "theatre", cascade = CascadeType.ALL)
+    private List<Selection> selections;
+
     // HOSTS: many theatres host many movies
     @ManyToMany(mappedBy = "theatreList")
     private List<Movie> movies;
@@ -24,8 +29,6 @@ public class Theatre {
     // SCHEDULES: 1 theatre schedules many showtimes
     @OneToMany(mappedBy = "theatre", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<Showtime> showtimes = new HashSet<>();
-
-    // SELECTS
 
     // Constructors
 
@@ -58,6 +61,10 @@ public class Theatre {
         return showtimes;
     }
 
+    public List<Selection> getSelections() {
+        return selections;
+    }
+
     // Setters
 
     public void setTheatreID(int theatreID) {
@@ -78,5 +85,9 @@ public class Theatre {
 
     public void setShowtimes(Set<Showtime> showtimes) {
         this.showtimes = showtimes;
+    }
+
+    public void setSelections(List<Selection> selections) {
+        this.selections = selections;
     }
 }

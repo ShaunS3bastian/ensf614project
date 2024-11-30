@@ -17,6 +17,14 @@ public class Movie {
     private String duration;           // ex. 2h 13m
     private String description;
 
+    // SELECTS relationship (via Selection)
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
+    private List<Selection> selections;
+
+    // PLAY: 1 movie plays at many showtimes
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
+    private List<Showtime> showtimeList;
+
     // HOST : many movies are hosted by many theatres
     @ManyToMany
     @JoinTable(
@@ -25,12 +33,6 @@ public class Movie {
         inverseJoinColumns = @JoinColumn(name = "theatreID")
     )
     private List<Theatre> theatreList;
-
-    // PLAY: 1 movie plays at many showtimes
-    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
-    private List<Showtime> showtimeList;
-
-    // SELECTS
 
     // Constructors
 
@@ -68,6 +70,10 @@ public class Movie {
         return showtimeList;
     }
 
+    public List<Selection> getSelections() {
+        return selections;
+    }
+
     // Setters
 
     public void setMovieID(int movieID) {
@@ -100,6 +106,10 @@ public class Movie {
 
     public void setShowtimeList(List<Showtime> showtimeList) {
         this.showtimeList = showtimeList;
+    }
+
+    public void setSelections(List<Selection> selections) {
+        this.selections = selections;
     }
 
 }

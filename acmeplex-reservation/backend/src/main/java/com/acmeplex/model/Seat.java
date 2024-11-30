@@ -2,6 +2,8 @@ package com.acmeplex.model;
 import com.acmeplex.model.*;
 
 import jakarta.persistence.*;
+
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -20,7 +22,9 @@ public class Seat {
     @ManyToMany(mappedBy = "seats")
     private Set<Showtime> showtimes;
 
-    // SELECTS:
+    // SELECTS relationship (via Selection)
+    @ManyToMany(mappedBy = "seats")
+    private List<Selection> selections;
 
     // Constructor
 
@@ -59,6 +63,10 @@ public class Seat {
         return showtimes;
     }
 
+    public List<Selection> getSelections() {
+        return selections;
+    }
+
     // Setters
 
     public void setSeatID(int seatID) {
@@ -83,5 +91,9 @@ public class Seat {
 
     public void setShowtimes(Set<Showtime> showtimes) {
         this.showtimes = showtimes;
+    }
+
+    public void setSelections(List<Selection> selections) {
+        this.selections = selections;
     }
 }

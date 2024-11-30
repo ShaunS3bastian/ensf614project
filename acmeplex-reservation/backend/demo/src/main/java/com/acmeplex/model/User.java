@@ -1,15 +1,14 @@
 package com.acmeplex.model;
 
 import javax.persistence.*;
+
+import main.java.com.acmeplex.model.Reservation;
+import main.java.com.acmeplex.model.Selection;
+
 import java.time.LocalDateTime;
+import java.util.List;
 
-@Entity
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    private String role; // Possible values: "ROLE_USER", "ROLE_ADMIN"
+// Possible values: "ROLE_USER", "ROLE_ADMIN"
     private String name;
     private String email;
     private String password; // Encrypted

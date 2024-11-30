@@ -26,7 +26,7 @@ public class Showtime {
     @JoinColumn(name = "theatreID", nullable = false)
     private Theatre theatre;
 
-    // HAS: many showtimes have amany seats
+    // HAS: many showtimes have many seats
     @ManyToMany
     @JoinTable(
         name = "showtime_seat",
@@ -35,7 +35,9 @@ public class Showtime {
     )
     private Set<Seat> seats;
 
-    // SELECT
+    // SELECTS relationship (via Selection)
+    @OneToMany(mappedBy = "showtime", cascade = CascadeType.ALL)
+    private List<Selection> selections;
 
     // Constructors
 
@@ -48,44 +50,54 @@ public class Showtime {
         this.seats = seats;
     }
 
-    // Getters and Setters
+    // Getters 
     public int getShowtimeID() {
         return showtimeID;
-    }
-
-    public void setShowtimeID(int showtimeID) {
-        this.showtimeID = showtimeID;
     }
 
     public String getDateTime() {
         return dateTime;
     }
 
-    public void setDateTime(String dateTime) {
-        this.dateTime = dateTime;
-    }
-
     public Movie getMovie() {
         return movie;
-    }
-
-    public void setMovie(Movie movie) {
-        this.movie = movie;
     }
 
     public Theatre getTheatre() {
         return theatre;
     }
+    
+    public Set<Seat> getSeats() {
+        return seats;
+    }
+    
+    public List<Selection> getSelections() {
+        return selections;
+    }
 
+    // Setters
+
+    public void setShowtimeID(int showtimeID) {
+        this.showtimeID = showtimeID;
+    }
+
+    public void setDateTime(String dateTime) {
+        this.dateTime = dateTime;
+    }
+
+    public void setMovie(Movie movie) {
+        this.movie = movie;
+    }
+    
     public void setTheatre(Theatre theatre) {
         this.theatre = theatre;
     }
 
-    public Set<Seat> getSeats() {
-        return seats;
-    }
-
     public void setSeats(Set<Seat> seats) {
         this.seats = seats;
+    }
+
+    public void setSelections(List<Selection> selections) {
+        this.selections = selections;
     }
 }
