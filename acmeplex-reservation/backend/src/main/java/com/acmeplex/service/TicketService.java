@@ -3,7 +3,7 @@ package com.acmeplex.service;
 import com.acmeplex.model.Seat;
 import com.acmeplex.model.Showtime;
 import com.acmeplex.model.Ticket;
-import com.acmeplex.model.User;
+import com.acmeplex.model.PaymentRequest;
 import com.acmeplex.repository.SeatRepository;
 import com.acmeplex.repository.TicketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,8 +21,16 @@ public class TicketService {
     @Autowired
     private SeatRepository seatRepository;
 
-    public Ticket bookTicket(Long userId, Long showtimeId, Long seatId, double ticketPrice) {
-        // Validate and reserve the seat
+    @Autowired
+    private PaymentService paymentService;
+
+    public Ticket bookTicket(Long userId, Long showtimeId, Long seatId, PaymentRequest paymentRequest) {
+        // Step 1: Process Payment
+        if (!paymentService.processPayment(paymentRequest)) {
+            throw new IllegalArgumentException("Payment failed. Please try again.");
+        }
+
+        // Step 2: Validate and reserve the seat
         Seat seat = seatRepository.findById(seatId)
                 .orElseThrow(() -> new IllegalArgumentException("Seat not found."));
         if (seat.isReserved()) {
@@ -32,12 +40,12 @@ public class TicketService {
         seat.setReserved(true);
         seatRepository.save(seat);
 
-        // Create the ticket
+        // Step 3: Create the ticket
         Ticket ticket = new Ticket();
         ticket.setUser(new User(userId)); // Minimal User instance with ID
         ticket.setShowtime(new Showtime(showtimeId)); // Minimal Showtime instance with ID
         ticket.setSeat(seat);
-        ticket.setPrice(ticketPrice);
+        ticket.setPrice(paymentRequest.getAmount() / 100.0); // Convert cents to dollars
         ticket.setCancelled(false);
 
         return ticketRepository.save(ticket);
@@ -54,6 +62,8 @@ public class TicketService {
         double refundAmount = isRegisteredUser ? ticket.getPrice() : ticket.getPrice() * 0.85; // Deduct 15% for ordinary users
         ticketRepository.save(ticket);
 
+        // Process refund
+        paymentService.processRefund(refundAmount, "mock-transaction-id");
         System.out.println("Refund of $" + refundAmount + " processed.");
     }
 

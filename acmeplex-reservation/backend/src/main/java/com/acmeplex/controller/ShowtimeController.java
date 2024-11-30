@@ -15,13 +15,11 @@ public class ShowtimeController {
     @Autowired
     private ShowtimeService showtimeService;
 
-    // Get showtimes by movie ID
     @GetMapping("/movie/{movieId}")
     public ResponseEntity<List<Showtime>> getShowtimesByMovie(@PathVariable Long movieId) {
         return ResponseEntity.ok(showtimeService.findShowtimesByMovie(movieId));
     }
 
-    // Add a new showtime
     @PostMapping
     public ResponseEntity<Showtime> addShowtime(@RequestBody Showtime showtime) {
         return ResponseEntity.ok(showtimeService.addShowtime(showtime));

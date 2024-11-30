@@ -1,7 +1,5 @@
 package com.acmeplex.service;
 
-import com.acmeplex.exception.EmailAlreadyExistsException;
-import com.acmeplex.exception.UserNotFoundException;
 import com.acmeplex.model.User;
 import com.acmeplex.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -21,20 +19,17 @@ public class UserService {
         this.passwordEncoder = passwordEncoder;
     }
 
-    // Get all users
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
 
-    // Update user role
     public User updateUserRole(Long userId, String role) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new UserNotFoundException("User not found."));
-        user.setRole(role);
+        user.setRole(role); // Use enum Role for better safety
         return userRepository.save(user);
     }
 
-    // Delete a user
     public void deleteUser(Long userId) {
         if (!userRepository.existsById(userId)) {
             throw new UserNotFoundException("User not found.");
@@ -42,7 +37,6 @@ public class UserService {
         userRepository.deleteById(userId);
     }
 
-    // Register a new user
     public User registerUser(User user) {
         if (userRepository.findByEmail(user.getEmail()).isPresent()) {
             throw new EmailAlreadyExistsException("User with this email already exists.");
@@ -52,7 +46,6 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    // Login a user
     public Optional<User> login(String email, String password) {
         User user = userRepository.findByEmail(email)
                 .orElseThrow(() -> new IllegalArgumentException("User not found."));
@@ -62,7 +55,6 @@ public class UserService {
         return Optional.of(user);
     }
 
-    // Find a user by ID
     public Optional<User> findById(Long id) {
         return userRepository.findById(id);
     }

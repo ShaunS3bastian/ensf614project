@@ -17,7 +17,7 @@ public class PaymentController {
     @PostMapping("/process-payment")
     public ResponseEntity<?> processPayment(@RequestBody PaymentRequest paymentRequest) {
         try {
-            // Set the Stripe secret key (Replace with actual key from environment/config)
+            // Set your Stripe secret key
             Stripe.apiKey = "your-stripe-secret-key";
 
             // Prepare payment details

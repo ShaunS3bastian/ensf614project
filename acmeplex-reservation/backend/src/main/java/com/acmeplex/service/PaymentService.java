@@ -14,13 +14,13 @@ public class PaymentService {
     // Process payment using Stripe
     public boolean processPayment(PaymentRequest paymentRequest) {
         try {
-            // Set the Stripe secret key (Replace with actual key from environment/config)
-            Stripe.apiKey = "your-stripe-secret-key";
+            // Set the Stripe secret key
+            Stripe.apiKey = "your-stripe-secret-key"; // Replace with your actual Stripe secret key
 
             // Prepare payment parameters
             Map<String, Object> params = new HashMap<>();
             params.put("amount", paymentRequest.getAmount()); // Amount in cents
-            params.put("currency", "usd"); // Currency
+            params.put("currency", "usd"); // Currency code
             params.put("source", paymentRequest.getPaymentToken()); // Stripe payment token
             params.put("description", "Movie Ticket Payment");
 
@@ -41,8 +41,9 @@ public class PaymentService {
     // Process refunds
     public boolean processRefund(double amount, String transactionId) {
         try {
-            // Example placeholder for Stripe refund API
-            System.out.println("Refund processed for transaction: " + transactionId + ", amount: $" + amount);
+            // Placeholder for refund logic
+            // Example: Stripe Refund API integration (if needed)
+            System.out.println("Processing refund of $" + amount + " for transaction: " + transactionId);
 
             // Mock success for now
             return true;
