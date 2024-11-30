@@ -26,6 +26,8 @@ public class User {
 
     public void setId(Long id) {
         this.id = id;
+import main.java.com.acmeplex.model.Reservation;
+
     }
 
     public String getRole() {
