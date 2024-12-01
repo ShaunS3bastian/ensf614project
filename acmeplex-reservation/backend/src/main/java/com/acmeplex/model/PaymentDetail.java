@@ -24,8 +24,7 @@ public class PaymentDetail {
     private Payment payment;
 
     // Constructor
-
-    
+    public PaymentDetail() {}    
 
     // Getters and Setters
     public int getPaymentDetailID() {

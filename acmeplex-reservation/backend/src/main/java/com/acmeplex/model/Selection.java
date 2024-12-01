@@ -39,6 +39,10 @@ public class Selection {
     )
     private List<Seat> seats;
 
+    // Constructor
+
+    public Selection() {}
+
     // Getters
     public int getSelectionID() {
         return selectionID;

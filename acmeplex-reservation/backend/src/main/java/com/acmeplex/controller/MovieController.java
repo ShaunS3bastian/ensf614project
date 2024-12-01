@@ -30,7 +30,7 @@ public class MovieController {
         return ResponseEntity.ok(movieService.getMoviesByGenre(genre));
     }
 
-    @DeleteMapping("/{movieId}")
+    @DeleteMapping("/{movieID}")
     public ResponseEntity<?> deleteMovie(@PathVariable Long movieId) {
         movieService.deleteMovie(movieId);
         return ResponseEntity.ok("Movie deleted successfully.");

@@ -34,6 +34,16 @@ public class Movie {
 
     // Constructors
 
+    public Movie() {}
+
+    public Movie(String status, String title, String genre, String duration, String description) {
+        this.status = status;
+        this.title = title;
+        this.genre = genre;
+        this.duration = duration;
+        this.description = description;
+    }
+
     // Getters
 
     public int getMovieID() {
