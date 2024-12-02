@@ -60,3 +60,8 @@
 .select-button:hover {
   background-color: #ffc800;
 }
+
+.movie-card {
+  touch-action: manipulation;
+}
+

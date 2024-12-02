@@ -1,0 +1,27 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.RegisteredUser;
+import com.acmeplex.repository.RegisteredUserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class RegisteredUserService {
+
+    @Autowired
+    private RegisteredUserRepository registeredUserRepository;
+
+    public RegisteredUser registerUser(RegisteredUser user) {
+        return registeredUserRepository.save(user);
+    }
+
+    public RegisteredUser updateUser(int id, RegisteredUser user) {
+        RegisteredUser existingUser = registeredUserRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
+        existingUser.setEmail(user.getEmail());
+        existingUser.setFirstName(user.getFirstName());
+        existingUser.setLastName(user.getLastName());
+        existingUser.setAddress(user.getAddress());
+        existingUser.setCardDetail(user.getCardDetail());
+        return registeredUserRepository.save(existingUser);
+    }
+}

@@ -1,0 +1,5 @@
+package com.acmeplex.controller;
+
+public class TheatreController {
+
+}

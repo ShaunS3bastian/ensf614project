@@ -1,0 +1,37 @@
+.confirmation-container {
+  background-color: #1c1c1c;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.confirmation-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f17a1e;
+}
+
+.confirmation-message {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #f17a1e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #d46918;
+}

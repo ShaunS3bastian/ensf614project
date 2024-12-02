@@ -2,17 +2,23 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./components/Login";
 import CreateAccount from "./components/CreateAccount";
-import RegisteredHomepage from "./components/RegisteredHomepage"; // Registered User Homepage
-import GuestHomepage from "./components/GuestHomepage"; // Guest User Homepage
-import SelectMoviePage from "./components/SelectMoviePage"; // Common movie page
-import SelectAdvanceMoviePage from "./components/SelectAdvanceMoviePage"; // Advance movie page
+import RegisteredHomepage from "./components/RegisteredHomepage";
+import GuestHomepage from "./components/GuestHomepage";
+import SelectMovie from "./components/SelectMovie";
+import SelectAdvanceMoviePage from "./components/SelectAdvanceMoviePage";
 import SelectTheatre from "./components/SelectTheatre";
-import SelectShowtime from "./components/SelectShowtime"; // Select Showtime page
+import SelectShowtime from "./components/SelectShowtime";
+import SelectSeat from "./components/SelectSeat";
+import PaymentPage from "./components/PaymentPage";
+import CardDetails from "./components/CardDetails";
+import ConfirmPaymentPage from "./components/ConfirmPaymentPage";
+import CancelTickets from "./components/CancelTickets";
+import CancelTicketConfirmation from "./components/CancelTicketConfirmation"; // Import the new confirmation component
 import "./App.css";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isGuest, setIsGuest] = useState(false); // Track if user is a guest
+  const [isGuest, setIsGuest] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = (query) => {
@@ -83,12 +89,12 @@ function App() {
 
   const handleLogin = () => {
     setIsLoggedIn(true);
-    setIsGuest(false); // Ensure the user is logged in as a registered user
+    setIsGuest(false);
   };
 
   const handleGuestLogin = () => {
     setIsGuest(true);
-    setIsLoggedIn(false); // Ensure the user is logged in as a guest
+    setIsLoggedIn(false);
   };
 
   return (
@@ -133,12 +139,26 @@ function App() {
             }
           />
           {/* Select Movie Pages */}
-          <Route path="/select-movie" element={<SelectMoviePage />} />
+          <Route path="/select-movie" element={<SelectMovie />} />
           <Route path="/select-advance-movie" element={<SelectAdvanceMoviePage />} />
           {/* Select Theatre Page */}
           <Route path="/select-theatre" element={<SelectTheatre />} />
           {/* Select Showtime Page */}
           <Route path="/select-showtime" element={<SelectShowtime />} />
+          {/* Select Seat Page */}
+          <Route path="/select-seat" element={<SelectSeat />} />
+          {/* Payment Page */}
+          <Route path="/payment" element={<PaymentPage />} />
+          {/* Card Details Page */}
+          <Route path="/card-details" element={<CardDetails />} />
+          {/* Confirm Payment Page */}
+          <Route path="/confirm-payment" element={<ConfirmPaymentPage />} />
+          {/* Cancel Tickets Page */}
+          <Route path="/cancel-tickets" element={<CancelTickets />} />
+          {/* Cancel Ticket Confirmation Page */}
+          <Route path="/cancel-ticket-confirmation" element={<CancelTicketConfirmation />} />
+          {/* Fallback for undefined routes */}
+          <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </div>
     </Router>

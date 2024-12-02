@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 ACMEPLEX. All Rights Reserved.</p>
+      <p>© {new Date().getFullYear()} ACMEPLEX. All Rights Reserved.</p>
     </footer>
   );
 }

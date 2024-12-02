@@ -1,0 +1,31 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.Showtime;
+import com.acmeplex.repository.ShowtimeRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ShowtimeService {
+
+    @Autowired
+    private ShowtimeRepository showtimeRepository;
+
+    public List<Showtime> getAllShowtimes() {
+        return showtimeRepository.findAll();
+    }
+
+    public Showtime getShowtimeById(int showtimeID) {
+        return showtimeRepository.findById(showtimeID).orElse(null);
+    }
+
+    public Showtime saveShowtime(Showtime showtime) {
+        return showtimeRepository.save(showtime);
+    }
+
+    public void deleteShowtime(int showtimeID) {
+        showtimeRepository.deleteById(showtimeID);
+    }
+}

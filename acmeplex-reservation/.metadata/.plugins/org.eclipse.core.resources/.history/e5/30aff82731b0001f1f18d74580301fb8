@@ -1,0 +1,43 @@
+package com.acmeplex.controller;
+
+import com.acmeplex.model.RegisteredUser;
+import com.acmeplex.service.RegisteredUserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/registered-users")
+public class RegisteredUserController {
+
+    @Autowired
+    private RegisteredUserService registeredUserService;
+
+    @GetMapping
+    public List<RegisteredUser> getAllRegisteredUsers() {
+        return registeredUserService.getAllRegisteredUsers();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<RegisteredUser> getRegisteredUserById(@PathVariable int id) {
+        RegisteredUser user = registeredUserService.getRegisteredUserById(id);
+        return user != null ? ResponseEntity.ok(user) : ResponseEntity.notFound().build();
+    }
+
+    @PostMapping
+    public RegisteredUser saveRegisteredUser(@RequestBody RegisteredUser user) {
+        return registeredUserService.saveRegisteredUser(user);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteRegisteredUser(@PathVariable int id) {
+        try {
+            registeredUserService.deleteRegisteredUser(id);
+            return ResponseEntity.ok("User deleted successfully.");
+        } catch (RuntimeException e) {
+            return ResponseEntity.status(404).body(e.getMessage());
+        }
+    }
+}

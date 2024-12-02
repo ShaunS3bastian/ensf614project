@@ -1,0 +1,66 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.Notification;
+import com.acmeplex.repository.NotificationRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Service
+public class NotificationService {
+
+    @Autowired
+    private NotificationRepository notificationRepository;
+
+    /**
+     * Fetch all notifications for a specific user
+     * @param userID User ID
+     * @return List of Notification for the user
+     */
+    public List<Notification> getNotificationsByUserId(int userID) {
+        return notificationRepository.findByUser_UserID(userID);
+    }
+
+    /**
+     * Save or update a notification
+     * @param notification Notification object to save
+     * @return Saved Notification
+     */
+    public Notification saveNotification(Notification notification) {
+        return notificationRepository.save(notification);
+    }
+
+    /**
+     * Delete a notification by its ID
+     * @param id Notification ID
+     */
+    public void deleteNotification(Long id) {
+        notificationRepository.deleteById(id);
+    }
+
+    /**
+     * Create a new notification for a user
+     * @param userId User ID
+     * @param title Notification title
+     * @param message Notification message
+     * @return Created Notification
+     */
+    public Notification createNotification(int userId, String title, String message) {
+        Notification notification = new Notification();
+        notification.setTitle(title);
+        notification.setMessage(message);
+        notification.setSentDate(LocalDateTime.now());
+        notification.setUser(notificationRepository.findByUserId(userId)); // Replace with user fetching logic
+        return notificationRepository.save(notification);
+    }
+
+    /**
+     * Fetch all notifications
+     * @return List of all Notifications
+     */
+    public List<Notification> getAllNotifications() {
+        return notificationRepository.findAll();
+    }
+}

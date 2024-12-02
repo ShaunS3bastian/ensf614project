@@ -1,0 +1,43 @@
+package com.acmeplex.controller;
+
+import com.acmeplex.model.Theatre;
+import com.acmeplex.service.TheatreService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/theatres")
+public class TheatreController {
+
+    @Autowired
+    private TheatreService theatreService;
+
+    @GetMapping
+    public ResponseEntity<List<Theatre>> getAllTheatres() {
+        return ResponseEntity.ok(theatreService.getAllTheatres());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Theatre> getTheatreById(@PathVariable int id) {
+        return ResponseEntity.ok(theatreService.getTheatreById(id));
+    }
+
+    @PostMapping
+    public ResponseEntity<Theatre> createTheatre(@RequestBody Theatre theatre) {
+        return ResponseEntity.ok(theatreService.createTheatre(theatre));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Theatre> updateTheatre(@PathVariable int id, @RequestBody Theatre theatre) {
+        return ResponseEntity.ok(theatreService.updateTheatre(id, theatre));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteTheatre(@PathVariable int id) {
+        theatreService.deleteTheatre(id);
+        return ResponseEntity.noContent().build();
+    }
+}

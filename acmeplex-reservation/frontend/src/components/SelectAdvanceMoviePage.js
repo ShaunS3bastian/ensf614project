@@ -8,8 +8,8 @@ function SelectAdvanceMoviePage() {
   const { state } = location;
 
   const title = state?.title || "Unknown Title";
-  const poster = state?.poster || "";
-  const genre = state?.genres[0] || "Genre";
+  const poster = state?.poster || "/images/placeholder.png";
+  const genre = state?.genres ? state.genres[0] : "Genre";
   const duration = state?.duration || "N/A";
   const synopsis = state?.synopsis || "No synopsis available.";
 
@@ -24,17 +24,23 @@ function SelectAdvanceMoviePage() {
       <button className="back-button" onClick={() => navigate(-1)}>
         &#8592; Back
       </button>
-      <div className="movie-details">
-        <h1 className="movie-title">{title}</h1>
-        <p className="movie-genre">{genre}</p>
-        <p className="movie-duration">{duration}</p>
-        <p className="movie-synopsis">{synopsis}</p>
-        <button className="book-button" onClick={handleBookAdvanceTickets}>
-          Book Advance Ticket
-        </button>
-      </div>
-      <div className="movie-poster">
-        <img src={poster} alt={title} />
+      <div className="movie-content">
+        {/* Movie Details */}
+        <div className="movie-details">
+          <div className="movie-info">
+            <span className="movie-genre">{genre}</span>
+            <span className="movie-duration">{duration}</span>
+          </div>
+          <h1 className="movie-title">{title}</h1>
+          <p className="movie-synopsis">{synopsis}</p>
+          <button className="book-button" onClick={handleBookAdvanceTickets}>
+            Book Advance Ticket
+          </button>
+        </div>
+        {/* Movie Poster */}
+        <div className="movie-poster">
+          <img src={poster} alt={title} />
+        </div>
       </div>
     </div>
   );

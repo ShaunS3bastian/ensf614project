@@ -1,0 +1,31 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.Reservation;
+import com.acmeplex.repository.ReservationRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ReservationService {
+
+    @Autowired
+    private ReservationRepository reservationRepository;
+
+    public List<Reservation> getAllReservations() {
+        return reservationRepository.findAll();
+    }
+
+    public Reservation getReservationById(int reservationID) {
+        return reservationRepository.findById(reservationID).orElse(null);
+    }
+
+    public Reservation saveReservation(Reservation reservation) {
+        return reservationRepository.save(reservation);
+    }
+
+    public void deleteReservation(int reservationID) {
+        reservationRepository.deleteById(reservationID);
+    }
+}

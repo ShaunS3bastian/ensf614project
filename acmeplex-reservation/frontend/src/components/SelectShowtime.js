@@ -10,7 +10,6 @@ function SelectShowtime() {
 
   // Movie and Theatre details passed via state
   const { state } = location;
-  const movieTitle = state?.title || "Unknown Movie";
   const theatreName = state?.theatreName || "Unknown Theatre";
 
   // Schedule data
@@ -53,19 +52,25 @@ function SelectShowtime() {
       )
     : schedule; // Show all dates if no specific date is selected
 
-  const handleSelectSeat = () => {
-    if (selectedShowtime) {
-      navigate("/select-seat", {
-        state: {
-          title: movieTitle,
-          theatreName,
-          showtime: selectedShowtime,
+const handleSelectSeat = () => {
+  if (selectedShowtime) {
+    navigate("/select-seat", {
+      state: {
+        schedule: {
+          date: filteredSchedule.find((day) =>
+            day.times.includes(selectedShowtime)
+          )?.date, // Pass the correct date
+          time: selectedShowtime.time,
+          format: selectedShowtime.format,
         },
-      });
-    } else {
-      alert("Please select a showtime first!");
-    }
-  };
+        theatreName, // Pass theatre name
+      },
+    });
+  } else {
+    alert("Please select a showtime first!");
+  }
+};
+
 
   return (
     <div className="select-showtime-container">

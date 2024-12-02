@@ -1,20 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/acmeplex-logo.png";
 import "./Login.css";
+import logo from "../assets/acmeplex-logo.png"; // Adjust the path to match your directory
 
 function Login({ onLogin, onGuestLogin }) {
   const navigate = useNavigate();
 
   const handleRegisteredLogin = (e) => {
     e.preventDefault();
-    onLogin(); // Trigger registered login
-    navigate("/registered-homepage"); // Redirect to Registered User Homepage
+    onLogin();
+    navigate("/registered-homepage");
   };
 
   const handleGuestLogin = () => {
-    onGuestLogin(); // Trigger guest login
-    navigate("/guest-homepage"); // Redirect to Guest Homepage
+    onGuestLogin();
+    navigate("/guest-homepage");
   };
 
   return (
@@ -37,12 +37,8 @@ function Login({ onLogin, onGuestLogin }) {
         <button type="submit" className="login-button">
           Log In
         </button>
-        <button
-          type="button"
-          className="guest-button"
-          onClick={handleGuestLogin}
-        >
-          Sign up as Guest
+        <button type="button" className="guest-button" onClick={handleGuestLogin}>
+          Guest Account
         </button>
       </form>
       <p className="signup-text">

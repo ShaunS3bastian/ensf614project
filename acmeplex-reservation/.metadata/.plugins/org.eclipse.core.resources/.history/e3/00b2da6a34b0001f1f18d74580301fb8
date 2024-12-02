@@ -1,0 +1,31 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.Theatre;
+import com.acmeplex.repository.TheatreRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class TheatreService {
+
+    @Autowired
+    private TheatreRepository theatreRepository;
+
+    public List<Theatre> getAllTheatres() {
+        return theatreRepository.findAll();
+    }
+
+    public Theatre getTheatreById(int theatreID) {
+        return theatreRepository.findById(theatreID).orElse(null);
+    }
+
+    public Theatre saveTheatre(Theatre theatre) {
+        return theatreRepository.save(theatre);
+    }
+
+    public void deleteTheatre(int theatreID) {
+        theatreRepository.deleteById(theatreID);
+    }
+}

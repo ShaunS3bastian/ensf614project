@@ -1,0 +1,9 @@
+package com.acmeplex.repository;
+
+import com.acmeplex.model.Notification; // Ensure this is the correct package
+import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+public interface NotificationRepository extends JpaRepository<Notification, Long> {
+    List<Notification> findByUser_UserID(int userID); // Find notifications by user ID
+}

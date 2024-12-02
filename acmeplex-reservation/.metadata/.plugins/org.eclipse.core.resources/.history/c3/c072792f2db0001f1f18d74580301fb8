@@ -1,0 +1,31 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.RegisteredUser;
+import com.acmeplex.repository.RegisteredUserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class RegisteredUserService {
+
+    @Autowired
+    private RegisteredUserRepository registeredUserRepository;
+
+    public List<RegisteredUser> getAllUsers() {
+        return registeredUserRepository.findAll();
+    }
+
+    public RegisteredUser getUserById(int userID) {
+        return registeredUserRepository.findById(userID).orElse(null);
+    }
+
+    public RegisteredUser saveUser(RegisteredUser user) {
+        return registeredUserRepository.save(user);
+    }
+
+    public void deleteUser(int userID) {
+        registeredUserRepository.deleteById(userID);
+    }
+}

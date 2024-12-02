@@ -1,0 +1,96 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.Notification;
+import com.acmeplex.model.User;
+import com.acmeplex.repository.NotificationRepository;
+import com.acmeplex.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Service
+public class NotificationService {
+
+    @Autowired
+    private NotificationRepository notificationRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    /**
+     * Fetch all notifications for a specific user.
+     * @param userID User ID.
+     * @return List of notifications for the user.
+     */
+    public List<Notification> getNotificationsByUser(int userID) {
+        return notificationRepository.findByUser_UserID(userID);
+    }
+
+    /**
+     * Save or update a notification.
+     * @param notification Notification object to save.
+     * @return Saved notification.
+     */
+    public Notification saveNotification(Notification notification) {
+        return notificationRepository.save(notification);
+    }
+
+    /**
+     * Delete a notification by its ID.
+     * @param id Notification ID.
+     */
+    public void deleteNotification(Long id) {
+        notificationRepository.deleteById(id);
+    }
+
+    /**
+     * Create a new notification for a user using userId, title, and message.
+     * @param userId User ID.
+     * @param title Notification title.
+     * @param message Notification message.
+     * @return Created notification.
+     */
+    public Notification createNotification(int userId, String title, String message) {
+        User user = userRepository.findById(userId).orElse(null);
+        if (user == null) {
+            throw new IllegalArgumentException("User not found with ID: " + userId);
+        }
+
+        Notification notification = new Notification();
+        notification.setTitle(title);
+        notification.setMessage(message);
+        notification.setSentDate(LocalDateTime.now());
+        notification.setUser(user);
+        return notificationRepository.save(notification);
+    }
+
+    /**
+     * Create a new notification for a user using a Notification object.
+     * @param notification Notification object with user, title, and message.
+     * @return Created notification.
+     */
+    public Notification createNotification(Notification notification) {
+        if (notification.getUser() == null || notification.getUser().getUserID() == 0) {
+            throw new IllegalArgumentException("Notification must have a valid user.");
+        }
+
+        User user = userRepository.findById(notification.getUser().getUserID()).orElse(null);
+        if (user == null) {
+            throw new IllegalArgumentException("User not found with ID: " + notification.getUser().getUserID());
+        }
+
+        notification.setUser(user);
+        notification.setSentDate(LocalDateTime.now());
+        return notificationRepository.save(notification);
+    }
+
+    /**
+     * Fetch all notifications.
+     * @return List of all notifications.
+     */
+    public List<Notification> getAllNotifications() {
+        return notificationRepository.findAll();
+    }
+}

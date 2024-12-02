@@ -12,8 +12,12 @@ function Header({ onSearch }) {
     <header className="header">
       <img src={logo} alt="ACMEPLEX Logo" className="logo" />
       <div className="search-container">
+        <label htmlFor="search-bar" className="sr-only">
+          Search Movies
+        </label>
         <img src={searchIcon} alt="Search" className="search-icon" />
         <input
+          id="search-bar"
           type="text"
           className="search-bar"
           placeholder="Search Movie"

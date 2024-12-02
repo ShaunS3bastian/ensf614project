@@ -1,0 +1,24 @@
+package com.acmeplex.service;
+
+import com.acmeplex.model.Credit;
+import com.acmeplex.repository.CreditRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class CreditService {
+
+    @Autowired
+    private CreditRepository creditRepository;
+
+    public List<Credit> getCreditsByUser(int userId) {
+        return creditRepository.findByUser_UserID(userId);
+    }
+
+    public Credit redeemCredit(Credit credit) {
+        credit.setType("Redeemed");
+        return creditRepository.save(credit);
+    }
+}
